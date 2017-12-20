@@ -52,7 +52,7 @@ status initBiTree(BiT &T);
 
 status destroyBiTree(BiT &T);
 
-status createBiTree(BiT *T, definition *d);
+status createBiTree(BiT *T, Product *d);
 
 status clearBiTree(BiT &T);
 
@@ -62,11 +62,15 @@ int biTreeDepth(BiT T);
 
 Node root(BiT T);
 
-Product value(BiT T, Node e);
+Product *value(BiT T, Node e);
+
+status nodeEqual(Node a, Node b);
 
 status assign(BiT &T, struct BiTNode &e, Product value);
 
 Node parent(BiT T, Node e);
+
+Node getNode(BiT T, Node e);
 
 Node leftChild(BiT T, Node e);
 
@@ -80,11 +84,12 @@ status insertChild(BiT T, Node e, int LR, BiT c);
 
 status deleteChild(BiT T, Node p, int LR);
 
-status visit();
+status visit(Node p);
 
-status PreOrderTraverse(BiT T, status *(visit()));
+status preOrderTraverse(BiT T, status (*visit)(Node));
 
-status debugTraverse(BiT T);
+status inOrderTraverse(BiT T, status (*visit)(Node));
 
+status postOrderTraverse(BiT T, status (*visit)(Node));
 
-
+status levelOrderTraverse(BiT T, status(*visit)(Node));

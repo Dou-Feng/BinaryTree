@@ -1,4 +1,7 @@
-﻿  Demo.cpp
+﻿  BinaryTree.cpp
 f:\university\datastructure\binarytree\binarytree\binarytree.h(12): warning C4005: “OVERFLOW”: 宏重定义
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_math.h(966): note: 参见“OVERFLOW”的前一个定义
+f:\university\datastructure\binarytree\binarytree\binarytree.cpp(378): warning C4715: “leftChild”: 不是所有的控件路径都返回值
+f:\university\datastructure\binarytree\binarytree\binarytree.cpp(371): warning C4715: “parent”: 不是所有的控件路径都返回值
+f:\university\datastructure\binarytree\binarytree\binarytree.cpp(431): warning C4715: “insertChild”: 不是所有的控件路径都返回值
   BinaryTree.vcxproj -> F:\University\DataStructure\BinaryTree\Debug\BinaryTree.exe
