@@ -1,0 +1,4 @@
+﻿  Demo.cpp
+f:\university\datastructure\binarytree\binarytree\binarytree.h(12): warning C4005: “OVERFLOW”: 宏重定义
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_math.h(966): note: 参见“OVERFLOW”的前一个定义
+  BinaryTree.vcxproj -> F:\University\DataStructure\BinaryTree\Debug\BinaryTree.exe
